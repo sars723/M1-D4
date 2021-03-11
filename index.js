@@ -112,7 +112,7 @@ const check3and7=function(positiveNumber){
 
     }
  }
- check3and7();
+ check3and7(3);
 
 /* WRITE YOUR CODE HERE */
 
@@ -142,7 +142,7 @@ const upperFirst=function(givenString){
 Write a function "cutString" to create a new string without the first and last character of a given string.
 */
 const cutString=function(givenString){
-    let result=givenString.SubString(1,givenString.length-1);
+    let result=givenString.substring(1,givenString.length-1);
     console.log(result)
 
 }
@@ -153,9 +153,12 @@ cutString("hello");
 Write a function "giveMeRandom" which accepts a number n and returns an array containing n random numbers between 0 and 10.
 */
 const giveMeRandom=function(n){
-    let arr=[];
-    let arr=Math.floor(Math.random() * 11);
-    console.log(arr);
+    let ar2r=[];
+    let arr2=Math.floor(Math.random() * 11);
+    for(let i=0;i<arr2.length;i++)
+    {
+    console.log(arr2[i]);
+    }
 }
 
 giveMeRandom(2)
