@@ -5,7 +5,7 @@ ASSIGNMENT RULES
 - The solution must be available for the tutors by the end of the day (5PM CET)
 - You can Google / use StackOverflow BUT we suggest you to use just the material provided
 */
-
+/*All the answers must be written in JavaScript*/
 /* EXERCISE 1
 Write a function "area" which receives 2 parameters (l1,l2) and calculates the area of the associated rectangle.
 */
